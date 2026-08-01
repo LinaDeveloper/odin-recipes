@@ -69,10 +69,9 @@ li {
 }
 
 /* Responsive Image Styling */
-img {
-    max-width: 100%;       /* Ensures the image never overflows its container */
-    width: 100%;           /* Scales the image up to fill the content width */
-    height: 400px;         /* Gives all recipe images a uniform height */
+img{ 
+    width: auto;           /* Scales the image up to fill the content width */
+    height: 200px;         /* Gives all recipe images a uniform height */
     object-fit: cover;     /* Crops the image cleanly to fit dimensions without distorting */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
